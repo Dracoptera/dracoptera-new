@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>dracoptera 🦇</title>
+        <link>/es/</link>
+        <description>Un blog personal.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>dracoptera@gmail.com (Alex B.)</managingEditor>
+            <webMaster>dracoptera@gmail.com (Alex B.)</webMaster>
+            <atom:link href="/es/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
