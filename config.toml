@@ -1,0 +1,301 @@
+baseURL = "/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "dracoptera 🦇"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+enableEmoji = true
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  dateFormat = "2006-01-02"
+
+ [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = 'Icons from <a href="https://www.flaticon.com/">Flaticon</a>'
+    # whether to show Hugo and theme info
+    hugo = true
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # site creation time
+    since = 2020
+    # license info (HTML format is supported)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+ [params.page]
+     [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # whether to keep the static table of the contents in front of the post
+      keepStatic = false
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    # Code config
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = true
+      Evernote = true
+    # Comment config
+    # 评论系统设置
+    [params.page.comment]
+      enable = true
+      # Disqus comment config (https://disqus.com/)
+      # Disqus 评论系统设置 (https://disqus.com/)
+      [params.page.comment.disqus]
+        enable = true
+        # Disqus shortname to use Disqus in posts
+        shortname = "dracoptera-dev"
+      # Gitalk comment config (https://github.com/gitalk/gitalk)
+      [params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      [params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+      # Commento comment config (https://commento.io/)
+
+      [params.page.comment.commento]
+        enable = false
+      # Utterances comment config (https://utteranc.es/)
+
+      [params.page.comment.utterances]
+        enable = false
+        # owner/repo
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+
+[languages]
+  [languages.en]
+    weight    = 1
+    languageName = "English"
+    paginate = 10
+
+    [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "About"
+        url = "/about"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Posts"
+        url = "/posts"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/dracoptera"
+        title = "GitHub"
+        weight = 4
+
+    [languages.en.params]
+      # site description
+      description = "A personal blog."
+      # site keywords
+      keywords = ["Blog", "Hugo"]
+      # App icon config
+      [languages.en.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "dracoptera"
+        # whether to omit favicon resource links
+        noFavicon = false
+      # Search config
+      [languages.en.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.en.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.en.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "images/avataaars.png"
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          subtitle = "Alexa Brito 🦇 | Self-taught coder 💻"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.en.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.en.params.social]
+        GitHub = "https://github.com/dracoptera"
+        Linkedin = "https://www.linkedin.com/in/alexabv/"
+        Telegram = "dracoptera"
+        Codepen = "https://codepen.io/dracoptera"
+        FreeCodeCamp = "https://www.freecodecamp.org/dracoptera"
+        Goodreads = "https://www.goodreads.com/user/show/27907788-ale-brito"
+        Email = "dracoptera@gmail.com"
+
+
+  [languages.es]
+    weight    = 2
+    languageName = "Español"
+    paginate = 10
+
+    [languages.es.menu]
+
+      [[languages.es.menu.main]]
+        identifier = "about"
+        name = "Sobre mí"
+        url = "/about"
+        weight = 1
+      [[languages.es.menu.main]]
+        identifier = "blog"
+        name = "Posts"
+        url = "/posts"
+        weight = 2
+      [[languages.es.menu.main]]
+        identifier = "tags"
+        name = "Etiquetas"
+        url = "/tags"
+        weight = 3
+      [[languages.es.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/dracoptera"
+        title = "GitHub"
+        weight = 4
+
+    [languages.es.params]
+      # site description
+      description = "Un blog personal."
+      # site keywords
+      keywords = ["Blog", "Hugo"]
+      # App icon config
+      [languages.es.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "dracoptera"
+        # whether to omit favicon resource links
+        noFavicon = false
+      # Search config
+      [languages.es.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.es.params.search.algolia]
+          index = "index.es"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.es.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.es.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "images/avataaars.png"
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          subtitle = "Alexa Brito 🦇 | Coder auto didacta 💻"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.es.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.es.params.social]
+        GitHub = "https://github.com/dracoptera"
+        Linkedin = "https://www.linkedin.com/in/alexabv/"
+        Telegram = "dracoptera"
+        Codepen = "https://codepen.io/dracoptera"
+        FreeCodeCamp = "https://www.freecodecamp.org/dracoptera"
+        Goodreads = "https://www.goodreads.com/user/show/27907788-ale-brito"
+        Email = "dracoptera@gmail.com"
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+[author]
+  name = "Alex B."
+  email = "dracoptera@gmail.com"
