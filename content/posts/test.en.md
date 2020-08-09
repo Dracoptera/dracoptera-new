@@ -1,5 +1,5 @@
 ---
-title: "🧫 Test"
+title: "Test 🧫"
 date: 2020-08-08T01:09:45-03:00
 draft: true
 toc: false

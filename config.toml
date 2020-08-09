@@ -30,6 +30,7 @@ enableEmoji = true
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
  [params.page]
+    fontawesome = true
      [params.page.toc]
       # whether to enable the table of the contents
       enable = true
@@ -266,7 +267,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "Alexa Brito 🦇 | Coder auto didacta 💻"
+          subtitle = "Alexa Brito 🦇 | Coder autodidacta 💻"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
