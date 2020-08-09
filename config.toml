@@ -183,12 +183,11 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "https://github.com/dracoptera"
-        Linkedin = "https://www.linkedin.com/in/alexabv/"
+        GitHub = "dracoptera"
+        Linkedin = "alexabv"
         Telegram = "dracoptera"
-        Codepen = "https://codepen.io/dracoptera"
-        FreeCodeCamp = "https://www.freecodecamp.org/dracoptera"
-        Goodreads = "https://www.goodreads.com/user/show/27907788-ale-brito"
+        Codepen = "dracoptera"
+        FreeCodeCamp = "dracoptera"
         Email = "dracoptera@gmail.com"
 
 
@@ -282,12 +281,11 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.es.params.social]
-        GitHub = "https://github.com/dracoptera"
-        Linkedin = "https://www.linkedin.com/in/alexabv/"
+        GitHub = "dracoptera"
+        Linkedin = "alexabv"
         Telegram = "dracoptera"
-        Codepen = "https://codepen.io/dracoptera"
-        FreeCodeCamp = "https://www.freecodecamp.org/dracoptera"
-        Goodreads = "https://www.goodreads.com/user/show/27907788-ale-brito"
+        Codepen = "dracoptera"
+        FreeCodeCamp = "dracoptera"
         Email = "dracoptera@gmail.com"
 
 
