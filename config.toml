@@ -13,6 +13,7 @@ enableEmoji = true
   # LoveIt theme version
   version = "0.2.X"
   dateFormat = "2006-01-02"
+  defaultTheme = "dark"
 
  [params.footer]
     enable = true
