@@ -2,7 +2,7 @@
 title: "100 Días de Código 💻"
 date: 2020-09-10T19:44:45-03:00
 draft: false
-summary: "My compromiso público con el reto #100daysOfCode. ¡Tú también deberías unirte!"
+summary: "Mi compromiso público con el reto #100daysOfCode. ¡Tú también deberías unirte!"
 resources:
   - name: "featured-image"
     src: "featured-image.jpg"
