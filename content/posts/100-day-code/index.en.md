@@ -52,11 +52,12 @@ I've just installed and it looks pretty cool and useful! It's counted 30 minutes
 I doubt I'll finish all these projects in just 100 days, but this is what I have planned so far:
 
 1. **Impractical Python Projects** 🐍
-   This is a whole book but it has some pretty interesting things I'd like to try out. Specifically, the _Breeding Giant Rats with Genetic Algorithms_ project.
 
-   I've read that this book can feel very heavy on maths. But that also makes it interested for this challenge (I've been running away from maths way too long now).
+This is a whole book but it has some pretty interesting things I'd like to try out. Specifically, the _Breeding Giant Rats with Genetic Algorithms_ project.
 
-   You can get the book [here](https://nostarch.com/impracticalpythonprojects).
+I've read that this book can feel very heavy on maths. But that also makes it interested for this challenge (I've been running away from maths way too long now).
+
+You can get the book [here](https://nostarch.com/impracticalpythonprojects).
 
 2. **freeCodeCamp Web Design Challenges** ☕
 
