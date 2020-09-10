@@ -1,7 +1,6 @@
 ---
 title: "100 Days of Code 💻"
 date: 2020-09-10T18:54:55-03:00
-draft: true
 draft: false
 summary: "My public commit for the 100 Day of Code challenge. You should join, too!"
 resources:
